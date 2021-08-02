@@ -2,6 +2,9 @@
     In case you may want to delete or drop the actual tables (version 29/7/2021)
     All the order is contemplated as a waterfall delete so you just need to execute all them all
 */
+USE [solutiondesigns]
+GO
+
 DELETE FROM sd_solutionslog
 DELETE FROM sd_solutions
 DELETE FROM sd_designs
@@ -25,4 +28,10 @@ DROP TABLE sd_keywords
 DROP TABLE sd_links
 DROP TABLE sd_owners
 DROP TABLE sd_actiontypes
+GO
+
+--DELETION FOR DATABASE
+USE master
+GO
+DROP DATABASE solutiondesigns;
 GO
