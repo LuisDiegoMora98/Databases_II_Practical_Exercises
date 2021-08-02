@@ -10,6 +10,8 @@ We will have 2 folders, relational and non-relational. Both folders has practice
 
 Install SQL Server (this scripts are tested in both Windows and Linux SO) and make sure you have running your instance server.
 
+PD: Inside Relational we have the CRUD script for a test database.
+
 <!-- LICENSE -->
 ## License
 
